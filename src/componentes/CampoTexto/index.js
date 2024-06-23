@@ -1,8 +1,11 @@
-const CampoTexto = () => {
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+    const placeholderModificada = `${props.placeholder}...`
     return (
-        <div>
-        <label>Nome</label>
-        <input></input>
+        <div className="campo-texto">
+        <label>{props.label}</label>
+        <input placeholder={placeholderModificada}></input>
         </div>
     )
 }
