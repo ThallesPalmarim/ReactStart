@@ -8,6 +8,7 @@ const Formulario = (props) => {
     const times=[
         'Programação',
         'Front-End',
+        'Data-Science',
         'DevOps',
         'UX e Design',
         'Mobile',
